@@ -15,7 +15,7 @@ console.log(`${currentHour < 24 && currentHour > 7 ? 'Unleash the beast!' : 'Bet
 // Use a ternary operator to print "Time to restock!" if the number is less than 5, or "We're stocked!" if the number is 5 or more.
 
 let cansLeft = 3; // Any number of cans
-let message = cansLeft >= 5? "Time to restock":"we're stocked!";
+let message = cansLeft >= 5? console.log("Time to restock"):console.log("we're stocked!");
 console.log(`message`);
 
 
