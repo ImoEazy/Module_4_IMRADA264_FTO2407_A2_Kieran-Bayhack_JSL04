@@ -14,7 +14,7 @@ console.log(`${currentHour < 24 && currentHour > 7 ? 'Unleash the beast!' : 'Bet
 // You have a variable that tracks the number of Monster Energy cans left in the fridge. 
 // Use a ternary operator to print "Time to restock!" if the number is less than 5, or "We're stocked!" if the number is 5 or more.
 
-let cansLeft = 3; // Any number of cans
+let cansLeft = 6; // Any number of cans
 let message = cansLeft >= 5? console.log("Time to restock"):console.log("we're stocked!");
 console.log(`message`);
 
@@ -24,7 +24,7 @@ console.log(`message`);
 // If the heart rate is below 100 bpm, print "Boost needed!", otherwise, print "Energy levels are high!".
 
 let heartRate = 95; // Current heart rate in bpm
-console.log(`'}`);
+console.log(heartRate < 100 ? "Boost up!" : "high energy levels!");//ternary operator- check if hearate below 100bpm.If true cosole message "boost up".If false return "high energy level"
 
 
 // #### Challenge 4: Temperature Suitability
