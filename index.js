@@ -7,7 +7,7 @@
 let userPreference = 'Sugar-free'; // Possible values: 'Regular', 'Sugar-free', or undefined
 userPreference === 'Sugar-free' ? console.log(`hi ther`): console.log('User prefers: Regular')//sugar free would be the chosen object, regular is meant to be default and undefined = "not sugar free"
 
-console.log(`${currentHour < 24 && currentHour > 7 ? 'Unleash the beast!' : 'Better stick to water.'}`);
+
 
 
 // #### Challenge 2: Stock Check
@@ -31,8 +31,10 @@ console.log(heartRate < 100 ? "Boost up!" : "high energy levels!");//ternary ope
 // Monster Energy drinks are best served cold. Given the current temperature, use a ternary to print "Chilled to perfection!" 
 // if the temperature is below or equal to 5°C, or "Needs a cooler!" if above 5°C.
 
-let currentTemp = 4; // Current temperature in °C
-console.log(``);
+let currentTemp = 6; // Current temperature in °C
+console.log(currentTemp <= 5 ? "perfect chilled temperature!" : " Needs to be cooled");
+//ternary condition to check if temperature is => 5. if statement is true show message "perfect chilled temp" else show "Needs to be cooled"
+
 
 
 // #### Challenge 5: Late Night Coding Session
@@ -41,7 +43,13 @@ console.log(``);
 // otherwise, print "Better stick to water."
 
 // Define the current hour in 24-hour format
-let currentHour = 22; 
+let currentHour = 22;
+console.log(currentHour >= 7 && currentHour < 24 ? "Unleash the abeast" : "rather stick to water")
+// codition to for 2 checks current hour greater or equal to 7 and current hour less than 24 
+// for the && operator to work, both coditions should be true, for overall condition to be true
+// The first expression is always true while the second is false.
+
+console.log(`${currentHour < 24 && currentHour > 7 ? 'Unleash the beast!' : 'Better stick to water.'}`);
 
 // Write your code below this line to determine if it's a good idea to have a Monster Energy drink based on the current hour
 // If it's between 7am and midnight (24-hour format), print "Unleash the beast!"
