@@ -24,7 +24,8 @@ console.log(`message`);
 // If the heart rate is below 100 bpm, print "Boost needed!", otherwise, print "Energy levels are high!".
 
 let heartRate = 95; // Current heart rate in bpm
-console.log(heartRate < 100 ? "Boost up!" : "high energy levels!");//ternary operator- check if hearate below 100bpm.If true cosole message "boost up".If false return "high energy level"
+console.log(heartRate < 100 ? "Boost up!" : "high energy levels!");
+//ternary operator- check if hearate below 100bpm.If true cosole message "boost up".If false return "high energy level"
 
 
 // #### Challenge 4: Temperature Suitability
@@ -33,7 +34,8 @@ console.log(heartRate < 100 ? "Boost up!" : "high energy levels!");//ternary ope
 
 let currentTemp = 6; // Current temperature in °C
 console.log(currentTemp <= 5 ? "perfect chilled temperature!" : " Needs to be cooled");
-//ternary condition to check if temperature is => 5. if statement is true show message "perfect chilled temp" else show "Needs to be cooled"
+//ternary condition to check if temperature is => 5 
+//if statement is true show message "perfect chilled temp" else show "Needs to be cooled"
 
 
 
